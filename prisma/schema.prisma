@@ -10,7 +10,8 @@ generator client {
 
 datasource db {
   provider = "sqlite"
-  url      = "file:./prisma/dev.db"
+  url      = "file:./dev.db"
+  directUrl = "file:./dev.db"
 }
 
 model Task {
