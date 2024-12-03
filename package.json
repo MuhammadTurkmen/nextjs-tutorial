@@ -4,15 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npx prisma generate && next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.15",
     "next": "15.0.3",
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "react-hot-toast": "^2.4.1",
     "zod": "^3.23.8"
   },
